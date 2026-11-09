@@ -1,16 +1,50 @@
-HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Practice</title>
+    <title>JavaScript Practice</title>
 </head>
 <body>
-    <h1>Check the console!</h1>
+
+    <h1>JavaScript Practice</h1>
+
+    <h2>Calculator</h2>
+
+    <input type="number" id="num1" placeholder="Enter first number">
+
+    <select id="operator">
+        <option value="+">Addition (+)</option>
+        <option value="-">Subtraction (-)</option>
+        <option value="*">Multiplication (*)</option>
+        <option value="/">Division (/)</option>
+        <option value="%">Modulus (%)</option>
+        <option value="**">Power (**)</option>
+    </select>
+
+    <input type="number" id="num2" placeholder="Enter second number">
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result">Result will appear here.</p>
+
+
+    <h2>Student Grade Tracker</h2>
+
+    <input type="text" id="studentName" placeholder="Student name">
+
+    <input type="number" id="math" placeholder="Math grade">
+
+    <input type="number" id="english" placeholder="English grade">
+
+    <input type="number" id="science" placeholder="Science grade">
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <div id="studentResults"></div>
+
 
     <script src="main.js"></script>
+
 </body>
 </html>
-
-Copied
