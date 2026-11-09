@@ -57,4 +57,4 @@ I experienced some challenges understanding array methods, working with objects 
 I solved these challenges by practising the exercises, checking the console for errors and testing my code.
 
 ## Live Demo
-Not deployed yet.
+ https://magdalenewanyeki.github.io/iyf-s12-week-04-MagdaleneWanyeki/
